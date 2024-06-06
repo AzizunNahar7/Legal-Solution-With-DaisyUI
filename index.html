@@ -43,7 +43,7 @@
       </style>
 </head>
 <body>
-    <header class=" max-w-screen-xl mx-auto">
+    <header class="max-w-screen-xl mx-auto">
     <!-- Navbar section start here -->
     <div class="navbar mb-12 mt-12">
       <div class="navbar-start">
@@ -299,20 +299,20 @@
           <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="card shrink-0 w-1/2">
               <form class="card-body">
-                <div class="form-control ">
-                  <input type="text" placeholder="Your Name" class="input input-bordered" required />
+                <div class="form-control mb-6">
+                  <input type="text" placeholder="Your Name" class="input bg-[#eeeeee] py-8" required />
+                </div>
+                <div class="form-control  mb-6">
+                  <input type="email" placeholder="Your Email" class="input bg-[#eeeeee] py-8" required />
+                </div>
+                <div class="form-control  mb-6">
+                  <input type="text" placeholder="Subject" class="input bg-[#eeeeee] py-8" required />
+                </div>
+                <div class="form-control  mb-6">
+                  <input type="text" placeholder="Your Message" class="input bg-[#eeeeee] pt-8 pb-28" required />
                 </div>
                 <div class="form-control">
-                  <input type="email" placeholder="Your Email" class="input input-bordered" required />
-                </div>
-                <div class="form-control">
-                  <input type="text" placeholder="Subject" class="input input-bordered" required />
-                </div>
-                <div class="form-control">
-                  <input type="text" placeholder="Your Message" class="input input-bordered" required />
-                </div>
-                <div class="form-control mt-6">
-                  <button class="btn btn-primary">Login</button>
+                  <button class="btn text-white poppins bg-primary-color text-xl font-semibold pt-6 pb-12">Send Message</button>
                 </div>
               </form>
             </div>
@@ -364,5 +364,43 @@
       </div>
     </section>
   </main>
+  <!-- Footer section start here -->
+  <footer class="bg-[#111]">
+    <footer class="footer max-w-screen-xl mx-auto p-10 text-base-content py-32">
+      <nav>
+        <img src="./images/logo2.png" alt="">
+        <p class="w-32 mt-5 text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </nav> 
+      <nav>
+        <h6 class="footer-title text-white rb-garamond text-2xl font-extrabold mt-7">Usefull Link</h6> 
+        <div class="block text-[#CFCFCF]">
+          <p class="mb-3">Home</p>
+          <p class="mb-3">About Us</p>
+          <p class="mb-3">Cases</p>
+          <p class="mb-3">Blog</p>
+          <p>Contact Us</p>
+        </div>>
+      </nav> 
+      <nav class="gap-3 text-white">
+        <h6 class="footer-title rb-garamond text-2xl font-extrabold mt-7">Contact Now</h6> 
+        <p class="text-[#CFCFCF]">555 4th 5t NW, Washington<br>
+          DC 20530, United States</p>
+        <p class="text-[#CFCFCF]">+88 01750 000 000<br>
+          +88 01750 000 000</p>
+        <p class="text-[#CFCFCF]">info@gmail.com<br>
+          info@gmail.com</p>
+      </nav> 
+      <form>
+        <h6 class="footer-title text-white rb-garamond text-2xl font-extrabold mt-7">Subscribe</h6> 
+        <fieldset class="form-control w-80">
+          <P class="mb-5 text-[#CFCFCF]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</P> 
+          <div class="join">
+            <input type="text" placeholder="Email Address" class="input input-bordered join-item border-none bg-white" /> 
+            <button class="btn bg-primary-color join-item"><i class="fa-solid fa-location-arrow text-white"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+  </footer>
 </body>
 </html>
